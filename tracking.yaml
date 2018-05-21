@@ -1,9 +1,41 @@
-Tasks:
-  - setup code repo
-  - setup issue tracking
-  - Get a single node visible on the screen
-  - Add text inside the node
-  - Add a second node and connect them
-  - Add nodes by clicking
-  - connect nodes to each other by dragging from one to anothe
-  - create a rough prototype of the UI
+nodes:
+  - name: setup code repo
+    tags: { task, done }
+  - name: setup issue tracking
+    tags: { task, done }
+  - name: Get a single node visible on the screen
+    tags: { task, done }
+  - name: Add text inside the node
+    tags: { task }
+  - name: learn d3 basics
+    tags: { task }
+  - name: Add a second node and connect them
+    tags: { task }
+  - name: Add nodes by clicking
+    tags: { task }
+  - name: connect nodes to each other by dragging from one to anothe
+    tags: { task }
+  - name: create a rough prototype of the UI
+    tags: { task }
+
+
+  - name: grit
+    data: >
+      A versatile tool for capturing, visualizing and searching data using graphs.
+      intuition: The basic idea is that we use lots of tools to organize information, evernote, excel, plain old text. Visualization of the data and actual data are one and the same. Focusing on one aspect or pivoting usually requires rewriting a new document to capture the new view. The information we are providing to a system should be something separate from the way we visualize it. Once we are free from the shackles of a specific representation we will be enabled to capture more complex concepts and relationships.
+
+  - tags { idea }
+    data: >
+      use graphs as the main information structure
+  - tags { idea }
+    data: >
+      visualization can be in the form of graphs but also as tables lists etc
+  - tags { idea }
+    data: >
+      need to evolve a means of querying the underlying data but also a raw "everything" view
+  - tags { idea }
+    data: >
+      Input of new data has to be very simple as well as its corellation with existing data
+  - tags { idea }
+    data: >
+      un-named nodes (for example these ideas don't have a title, only a description)
