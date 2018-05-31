@@ -9,13 +9,19 @@ nodes:
     tags: { task, done }
   - name: Add a second node and connect them
     tags: { task, done }
+  - name: Add nodes by clicking
+    tags: { task, done }
   - name: Add text inside the node
     tags: { task }
   - name: learn d3 basics
     tags: { task }
-  - name: Add nodes by clicking
-    tags: { task, done }
-  - name: connect nodes to each other by dragging from one to anothe
+  - name: graph auto layout
+    tags: { task }
+  - name: make some subtasks as an example of links
+    tags: { task }
+  - name: load this tracking data into the UI graph
+    tags: { task }
+  - name: connect nodes to each other by dragging from one to another
     tags: { task }
   - name: create a rough prototype of the UI
     tags: { task }
@@ -47,3 +53,6 @@ nodes:
   - tags: { idea }
     data: >
       an automatic layout is chosen at startup or after a search. However, nodes can be moved about and hidden. A view should then be savable.
+  - tags: { idea }
+    data: >
+      text box nodes should grow to fit the text up to a certain limit and then have ...
